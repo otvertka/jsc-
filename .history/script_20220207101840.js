@@ -1,3 +1,4 @@
+/*
 ////////////////////////////////////
 // Linking a JavaScript File
 let js = "amazing";
@@ -39,7 +40,7 @@ console.log(typeof javascriptIsFun);
 // console.log(typeof 23);
 // console.log(typeof 'Jonas');
 
-javascriptIsFun = "YES!";
+javascriptIsFun = 'YES!';
 console.log(typeof javascriptIsFun);
 
 let year;
@@ -60,10 +61,10 @@ const birthYear = 1991;
 // birthYear = 1990;
 // const job;
 
-var job = "programmer";
-job = "teacher";
+var job = 'programmer';
+job = 'teacher'
 
-lastName = "Schmedtmann";
+lastName = 'Schmedtmann';
 console.log(lastName);
 
 ////////////////////////////////////
@@ -77,9 +78,9 @@ console.log(ageJonas, ageSarah);
 console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
 
-const firstName = "Jonas";
-const lastName = "Schmedtmann";
-console.log(firstName + " " + lastName);
+const firstName = 'Jonas';
+const lastName = 'Schmedtmann';
+console.log(firstName + ' ' + lastName);
 
 // Assignment operators
 let x = 10 + 5; // 15
@@ -112,7 +113,7 @@ console.log(x, y);
 
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
-console.log("Hi");
+*/
 
 ////////////////////////////////////
 // Coding Challenge #1
@@ -202,6 +203,12 @@ Use the BMI example from Challenge #1, and the code you already wrote, and impro
 1. Print a nice output to the console, saying who has the higher BMI. The message can be either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
 2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!"
 
+HINT: Use an if/else statement 😉
+
+GOOD LUCK 😀
+*/
+
+/*
 const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
